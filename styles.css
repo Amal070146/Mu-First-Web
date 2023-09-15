@@ -9,6 +9,7 @@ body {
   font-family: "Happy Monkey", cursive;
   background: linear-gradient(#a2d2ff, #efb0c9);
   color: #ffffff;
+  width: 100vw;
 }
 
 h1,
@@ -64,32 +65,38 @@ p {
 
 .gift-img {
   margin: 20px auto;
+  width: 100%;
   max-width: 400px;
   height: 400px;
   border: 6px solid white;
   border-radius: 10px;
-  background-image: url("images/gift-cover.jpg");
+  background-image: url("https://imgs.search.brave.com/gDQcWeUX14xmBOPEYjOumjmEzDdfaksujZ31gEhNrzk/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jZG4u/c2hvcGlmeS5jb20v/cy9maWxlcy8xLzAw/MTcvMTE2My82NTQ3/L3Byb2R1Y3RzL0Nh/bVNjYW5uZXJfMTIt/MTktMjAyMV8xMS41/MC4wMl8xLmpwZz92/PTE2Mzk4OTgyMjYm/d2lkdGg9NTMz");
   background-size: cover;
 }
 
 #gift-img-happy:hover {
-  background-image: url("images/happy.gif");
+  width: 100%;
+  background-image: url("https://imgs.search.brave.com/fBPOG8zVKGhNuCpJGUI_1qoyODqAV6nOkP58qsa9pfU/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvOTgx/NzA5MzQyL3Bob3Rv/L3NtaWxleS1mYWNl/LmpwZz9zPTYxMng2/MTImdz0wJms9MjAm/Yz1KOWl6YzFtb3ZE/S1Z0VjB6b25RUjg5/TjBwVjRJeER6bWxN/TGU3Q1FsSk9BPQ");
 }
 
 #gift-img-hot:hover {
-  background-image: url("images/hot.gif");
+  width: 100%;
+  background-image: url("https://imgs.search.brave.com/N-P2k1wflzILOJw7LVZn7GcuiMY2xhfarAey5Yod3NQ/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMtbmEuc3NsLWlt/YWdlcy1hbWF6b24u/Y29tL2ltYWdlcy9J/LzcxbFRqQmRxWW1M/LmpwZw");
 }
 
 #gift-img-genius:hover {
-  background-image: url("images/genius.gif");
+  width: 100%;
+  background-image: url("https://imgs.search.brave.com/q2jM9zFLJXW-DcTjQ2Pddq2xnB0ARg62m6lbMST8-98/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jZG4u/YW5pbWUtcGxhbmV0/LmNvbS9tYW5nYS9w/cmltYXJ5L2ZhY2Ut/Z2VuaXVzLXBhcnQt/My0xLTI4NXg0MDAu/d2VicD90PTE2NDgw/Mzc5NjM");
 }
 
 #gift-img-badass:hover {
-  background-image: url("images/badass.gif");
+  width: 100%;
+  background-image: url("https://imgs.search.brave.com/q2jM9zFLJXW-DcTjQ2Pddq2xnB0ARg62m6lbMST8-98/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jZG4u/YW5pbWUtcGxhbmV0/LmNvbS9tYW5nYS9w/cmltYXJ5L2ZhY2Ut/Z2VuaXVzLXBhcnQt/My0xLTI4NXg0MDAu/d2VicD90PTE2NDgw/Mzc5NjM");
 }
 
 #gift-img-cheers:hover {
-  background-image: url("images/cheers.gif");
+  width: 100%;
+  background-image: url("https://imgs.search.brave.com/nYFEFvWRhmpy1f2k8gzksUobvIxCJ0fCcHIIm22vUa4/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvNTY3/MDk4NDIvcGhvdG8v/YS16aW1iYWJ3ZWFu/LWZhbi1jaGVlcnMt/d2VhcnMtZmFjZS1w/YWludC5qcGc_cz0x/MDI0eDEwMjQmdz1n/aSZrPTIwJmM9TkpK/RG1XSVR6U3FaMnNS/T3M1bHU2aDlaTFVC/Q1FycGFyMmpraWJP/cDlqcz0");
 }
 
 #footer {
